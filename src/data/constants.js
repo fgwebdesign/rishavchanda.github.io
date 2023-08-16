@@ -1,13 +1,13 @@
 export const Bio = {
-  name: "Rishav Chanda",
+  name: "FG WEB DESIGNS",
   roles: [
-    "Full Stack Developer",
-    "Android Developer",
+    "Web Developer",
+    "QA Tester",
     "UI/UX Designer",
-    "Programmer",
+    "QA Automation",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Soy un Diseñador Web certificado y especialista en QA (Quality Assurance). Mi objetivo es brindar un servicio único y personalizado, enfocándome en darle ese toque profesional que le falta a tu marca o empresa. Tengo la experiencia y habilidades garantizadas para llevar a cabo cualquier tipo de Testing de Software (Mobile, Web, Automatizado, API).",
   github: "https://github.com/rishavchanda",
   resume:
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
