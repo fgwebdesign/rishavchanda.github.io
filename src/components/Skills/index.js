@@ -41,7 +41,7 @@ export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
+    color: ${({ theme }) => theme.text_primary};
     @media (max-width: 768px) {
         font-size: 16px;
     }
@@ -60,7 +60,7 @@ const Skill = styled.div`
   width: 100%;
   max-width: 500px;
   background: ${({ theme }) => theme.card};
-  border: 0.1px solid #854CE6;
+  border: 0.1px solid #FF8C00;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
@@ -79,7 +79,7 @@ const Skill = styled.div`
 const SkillTitle = styled.h2`
   font-size: 28px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
+  color: ${({ theme }) => theme.text_primary};
   margin-bottom: 20px;
   text-align: center;
 `
@@ -123,8 +123,8 @@ const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
-        <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Title>Habilidades</Title>
+        <Desc>Estas son algunas de mis habilidades y herramientas con las que he estado trabajando y utilizando durante los últimos años.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
