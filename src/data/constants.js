@@ -1,7 +1,11 @@
 import bykimage from '../images/1.png';
-import agriboimage from '../images/5.png';
-import sabemarimage from '../images/3.png';
+import agriboimage from '../images/agribo.png';
 import delarcaimage from '../images/delarca.png';
+import shotbyjeydiimage from '../images/shotbyjeydi.png';
+import monionegroimage from '../images/monionegro.png';
+import dukoimage from '../images/duki.png';
+import sabemarimage from '../images/sabemar.png';
+import sevenimage from '../images/sevencontainers.png';
 
 export const Bio = {
   name: "FG WEB DESIGNS",
@@ -461,11 +465,11 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Sabemar Turismo",
+    title: "Shot By Jeydi",
     date: "2023",
     description:
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image: sabemarimage,
+    image: shotbyjeydiimage,
     tags: [
       "HTML",
       "CSS",
@@ -478,11 +482,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
+    title: "Moño Negro Catering",
+    date: "2023",
     description:
       "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-      image: bykimage,
+      image: monionegroimage,
       tags: [
         "HTML",
         "CSS",
@@ -495,87 +499,90 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
+    title: "Castelier Bienes Raíces",
+    date: "2023",
     description:
       "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image: sabemarimage,
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+    image: monionegroimage,
+    tags: [
+      "HTML",
+      "CSS",
+      "JSS",
+      "SCSS",
+      "Wordpress"
+    ],
     category: "android app",
     github: "https://github.com/rishavchanda/Buckoid-Android-App",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
   {
     id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
+    title: "Re-branding Duki Website",
+    date: "2023",
     description:
       "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image: agriboimage,
-    tags: ["React Native", "JavaScript", "Axios"],
+    image: dukoimage,
+    tags: [
+      "HTML",
+      "CSS",
+      "JS",
+      "React Js",
+      "Firebase"
+    ],
     category: "android app",
     github: "https://github.com/rishavchanda/Job-finder-App",
     webapp: "https://github.com/rishavchanda/Job-finder-App",
   },
   {
     id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
+    title: "Sabemar Turismo",
+    date: "2022",
     description:
       "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image: bykimage,
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+    image: sabemarimage,
+    tags: [
+      "HTML",
+      "CSS",
+      "JSS",
+      "SCSS",
+    ],
     category: "web app",
     github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
     webapp: "https://whatsapp-clone-rishav.web.app",
   },
   {
     id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    title: "Agribo Software",
+    date: "2021",
     description:
       " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image: sabemarimage,
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+    image: agriboimage,
+    tags: [
+      "HTML",
+      "CSS",
+      "JSS",
+      "SCSS",
+    ],
     category: "web app",
     github: "https://github.com/rishavchanda/Todo-Web-App",
     webapp: "https://rishav-react-todo.netlify.app/",
   },
   {
     id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
+    title: "Seven Containers",
+    date: "2021",
     description:
       "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image: agriboimage,
-    tags: ["React Js", "API", "Axios", "Node JS"],
+    image: sevenimage,
+    tags: [
+      "HTML",
+      "CSS",
+      "JSS",
+      "SCSS",
+    ],
     category: "web app",
     github: "https://github.com/rishavchanda/Breaking-Bad",
     webapp: "https://breaking-bad-webapp.netlify.app",
-  },
-  {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
-    description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image: sabemarimage,
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  },
-  {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image: bykimage,
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
 ];
 

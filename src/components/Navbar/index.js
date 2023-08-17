@@ -4,6 +4,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import { FaLinkedin } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -29,27 +30,31 @@ const Navbar = () => {
           <NavLink href='#education'>Resumen</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">LINKEDIN</GitHubButton>
+        <GitHubButton href={Bio.linkedin} target="_blank">
+        <FaLinkedin style={{ marginRight: '8px' }} /> LINKEDIN
+        </GitHubButton>
         </ButtonContainer>
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
             <MobileLink href="#about" onClick={() => {
               setIsOpen(!isOpen)
-            }}>About</MobileLink>
+            }}>Inicio</MobileLink>
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Skills</MobileLink>
+            }}>Habilidades</MobileLink>
             <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Experience</MobileLink>
+            }}>Experiencia</MobileLink>
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Projects</MobileLink>
+            }}>Portafolio</MobileLink>
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Education</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            }}>Resumen</MobileLink>
+          <GitHubButton style={{padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content'}} href={Bio.linkedin} target="_blank">
+          <FaLinkedin style={{ marginRight: '8px', verticalAlign: 'middle' }} /> LINKEDIN
+          </GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>
