@@ -1,6 +1,7 @@
 import bykimage from '../images/1.png';
 import agriboimage from '../images/5.png';
 import sabemarimage from '../images/3.png';
+import delarcaimage from '../images/delarca.png';
 
 export const Bio = {
   name: "FG WEB DESIGNS",
@@ -15,10 +16,8 @@ export const Bio = {
   github: "https://www.linkedin.com/in/felipegut/",
   resume:
     "https://drive.google.com/file/d/1Ikm0SEELWJbsr3PQ-foxd7zorn_bWWEO/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  linkedin: "https://www.linkedin.com/in/felipegut/",
+  insta: "https://www.instagram.com/fgwebdesign_/",
 };
 
 export const skills = [
@@ -104,7 +103,7 @@ export const skills = [
 
       {
         name: "BrowserStack",
-        image: "https://static.theprint.in/wp-content/uploads/2021/06/browserstack-the-leading-software-testing-platform-closes-200-million-series-b-funding-at-a-4-billion-valuation.jpg",
+        image: "https://www.passionateinmarketing.com/wp-content/uploads/2021/06/bstack_2x.png",
       },
     ],
   },
@@ -132,9 +131,9 @@ export const skills = [
           "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
       },
       {
-        name: "XML",
+        name: "Notion",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+        "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
       },
     ],
   },
@@ -445,11 +444,11 @@ export const projects = [
   },
   {
     id: 0,
-    title: "Agribo ",
-    date: "Apr 2023 - May 2023",
+    title: "Del Arca Producciones",
+    date: "2023",
     description:
       "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-      image: agriboimage,
+      image: delarcaimage,
       tags: [
         "HTML",
         "CSS",
@@ -463,7 +462,7 @@ export const projects = [
   {
     id: 1,
     title: "Sabemar Turismo",
-    date: "Oct 2022 - Present",
+    date: "2023",
     description:
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
     image: sabemarimage,

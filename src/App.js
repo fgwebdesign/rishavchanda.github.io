@@ -38,9 +38,9 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
+            <Projects openModal={openModal} setOpenModal={setOpenModal} />
             <Experience />
           </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
             <Contact />

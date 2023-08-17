@@ -107,10 +107,10 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: hsla(14, 100%, 50%, 1);
+  background: linear-gradient(225deg, hsla(14, 100%, 50%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+  background: -moz-linear-gradient(225deg, hsla(14, 100%, 50%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(225deg, hsla(14, 100%, 50%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -144,21 +144,21 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Title>Hablemos de futuros proyectos..</Title>
+        <Desc>Estoy aquí para ayudarte, No dudes en enviarme cualquier pregunta o propuesta.</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactTitle>¡Envíame un e-mail! 🚀📧</ContactTitle>
+          <ContactInput placeholder="Tu correo electrónico" name="from_email" />
+          <ContactInput placeholder="Tu nombre completo" name="from_name" />
+          <ContactInput placeholder="Asunto" name="subject" />
+          <ContactInputMessage placeholder="Mensaje" rows="4" name="message" />
+          <ContactButton type="submit" value="Enviar" />
         </ContactForm>
         <Snackbar
           open={open}
           autoHideDuration={6000}
           onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
+          message="Mensaje enviado correctamente!"
           severity="success"
         />
       </Wrapper>
