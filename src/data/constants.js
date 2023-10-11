@@ -7,6 +7,7 @@ import dukoimage from '../images/duki.png';
 import sabemarimage from '../images/sabemar.png';
 import sevenimage from '../images/sevencontainers.png';
 import logofg from '../images/logofg.png'
+import logoces from '../images/logoces.png'
 
 export const Bio = {
   name: "FG WEB DESIGNS",
@@ -366,7 +367,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://scontent.fmvd1-1.fna.fbcdn.net/v/t39.30808-6/300450862_587498539578582_5263751146760189759_n.png?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHXaH2DrjEHCI38kYwr-3Uo60VXiK4haaLrRVeIriFpot265SjhTj6hRFpXLY5-bOts44ULyWXNLAWog5USHh2b&_nc_ohc=uGJmo6kVYroAX_-bbN4&_nc_ht=scontent.fmvd1-1.fna&oh=00_AfBEWF2THfZNQeDkwmlw9PFMwMr1mlBAktFkNpYGDuQkXA&oe=64E2DD0F",
+    img: logoces, 
     school: "Tester de Software",
     date: "2022",
     degree: "Centro de Ensayo de Software - Facultad de Ingenieria",
