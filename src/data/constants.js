@@ -8,6 +8,9 @@ import sabemarimage from '../images/sabemar.png';
 import sevenimage from '../images/sevencontainers.png';
 import logofg from '../images/logofg.png'
 import logoces from '../images/logoces.png'
+import logoasana from '../images/logoasana.png'
+import logoow from '../images/logoow.png'
+import logotailwind from '../images/logotailwind.png'
 
 export const Bio = {
   name: "FG WEB DESIGNS",
@@ -69,6 +72,10 @@ export const skills = [
         image:
           "https://cdn.icon-icons.com/icons2/2699/PNG/512/webflow_logo_icon_169218.png",
       },
+      {
+        name: "TailWind",
+        image: logotailwind,
+      },
     ],
   },
   {
@@ -128,8 +135,7 @@ export const skills = [
       },
       {
         name: "Optimal Workshop",
-        image:
-          "https://scontent.fmvd1-1.fna.fbcdn.net/v/t39.30808-6/348240463_1254785821835153_4999297858344720837_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEj-MLJnjkGaUp_9XYrVSMIreOwn2pAM3Kt47CfakAzcq9yczCOllyHRSljNZN6U3F-DYp0byTLktr1hCvSuQLy&_nc_ohc=3D1R371Ja_kAX-Mxu5B&_nc_ht=scontent.fmvd1-1.fna&oh=00_AfBpfKbDiw6iek9zvLXPNE1Oetckl8cw5UtZamNdafJLBQ&oe=64E30A14",
+        image: logoow,
       },
       {
         name: "Figma",
@@ -188,8 +194,7 @@ export const skills = [
       },
       {
         name: "asana",
-        image:
-        "https://cdn.freebiesupply.com/logos/large/2x/asana-logo-logo-png-transparent.png",
+        image: logoasana,
       },
       {
         name: "ClickUp",
