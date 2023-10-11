@@ -6,7 +6,7 @@ import monionegroimage from '../images/monionegro.png';
 import dukoimage from '../images/duki.png';
 import sabemarimage from '../images/sabemar.png';
 import sevenimage from '../images/sevencontainers.png';
-import picanteimage from '../images/sevencontainers.png';
+import picanteimage from '../images/picantejerseys.png';
 import logofg from '../images/logofg.png'
 import logoces from '../images/logoces.png'
 import logoasana from '../images/logoasana.png'
@@ -18,8 +18,8 @@ export const Bio = {
   roles: [
     "Web Developer",
     "QA Manual",
-    "UI/UX Designer",
     "QA Automation",
+    "UI/UX Designer"
   ],
   description:
     "Soy un Diseñador Web certificado y especialista en QA (Quality Assurance). Mi objetivo es brindar un servicio único y personalizado, enfocándome en darle ese toque profesional que le falta a tu marca o empresa.",
@@ -443,7 +443,7 @@ export const projects = [
     date: "2023",
     description:
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image: bykimage,
+    image: picanteimage,
     tags: [
       "HTML",
       "CSS",
