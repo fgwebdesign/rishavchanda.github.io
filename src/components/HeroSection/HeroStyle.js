@@ -100,6 +100,11 @@ export const Img = styled.img`
   max-height: 400px;
   border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
+  transition: transform 0.4s ease-in-out;
+  
+  &:hover {
+    transform: scale(1.1);
+  }
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -172,7 +177,7 @@ export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: white;
 
   @media (max-width: 960px) {
     text-align: center;

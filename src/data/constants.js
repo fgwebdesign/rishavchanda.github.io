@@ -24,7 +24,7 @@ export const Bio = {
     "Soy un Diseñador Web certificado y especialista en QA (Quality Assurance). Mi objetivo es brindar un servicio único y personalizado, enfocándome en darle ese toque profesional que le falta a tu marca o empresa.",
   github: "https://www.linkedin.com/in/felipegut/",
   resume:
-    "https://drive.google.com/file/d/1Ikm0SEELWJbsr3PQ-foxd7zorn_bWWEO/view?usp=sharing",
+    "https://drive.google.com/file/d/1-xeZ-AkSF8jviCBJkXoL_B8zOAbhjg2G/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/felipegut/",
   insta: "https://www.instagram.com/fgwebdesign_/",
 };
@@ -150,7 +150,7 @@ export const skills = [
     ],
   },
   {
-    title: "Herramientas",
+    title: "Tools",
     skills: [
       {
         name: "Android Studio",
