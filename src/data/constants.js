@@ -6,6 +6,7 @@ import monionegroimage from '../images/monionegro.png';
 import dukoimage from '../images/duki.png';
 import sabemarimage from '../images/sabemar.png';
 import sevenimage from '../images/sevencontainers.png';
+import logofg from '../images/logofg.png'
 
 export const Bio = {
   name: "FG WEB DESIGNS",
@@ -202,7 +203,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://previews.dropbox.com/p/thumb/AB_78Y0GTOEzPFOWIsuihDjWdK78A3xM_by2p5ewFzoyHSVInlREDkxlp6yc_8PCerTsfHkWTgQsGCojdReiFDMuweEhsJihJhICbzKfdp-4BhgzUfnu81ntWDS35XdI3m80Xid74kcEN7wHQhBXRx_lKSWjl9_gLiQ-HlMPK3U70Xuam3-58dBkf61TnGqNsjHx9mAdgUM7LuGrH70tH76Mjd2plIHr3g7RI4Jsi1axbWhXs73lWkxHJjHY5y7-3W9872knCZ2kbiUyZB3W-D_38G5fxwXYHxMjHjSmmJvRkOSTJY-ep-PVZDzSseJCFfsObs3GJEX4oHpVfA0MlVpw/p.png",
+    img: logofg,
     role: "OWNER - Web Developer",
     company: "FG WEB DESIGNS",
     date: "2020 - actual",

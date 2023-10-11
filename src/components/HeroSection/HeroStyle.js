@@ -117,6 +117,24 @@ export const Title = styled.div`
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
+  & #bio-name {
+    background: -webkit-linear-gradient(45deg, orange, darkorange, orangered);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 5s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
   @media (max-width: 960px) {
     text-align: center;
   }
